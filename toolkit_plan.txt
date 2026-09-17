@@ -1,0 +1,44 @@
+==================================================
+PERSONAL MINI-TOOLKIT PLAN
+==================================================
+
+1. TOOL CHOICES & DESCRIPTIONS:
+--------------------------------------------------
+- Tool 1: Simple Calculator
+  Description: Performs basic mathematical operations (add, subtract, multiply, divide) on two numbers provided by the user.
+- Tool 2: Dynamic To-Do List Manager
+  Description: Allows users to view, add, and remove tasks from a list that updates continuously while the program is running.
+- Tool 3: Number Guessing Game
+  Description: Generates a secret random number between 1 and 20 and prompts the user to guess it with higher/lower feedback until correct.
+
+2. PROGRAM MENU LAYOUT:
+--------------------------------------------------
+========================================
+       PERSONAL MINI-TOOLKIT
+========================================
+1. Simple Calculator
+2. To-Do List Manager
+3. Number Guessing Game
+4. Exit
+========================================
+Select an option (1-4): 
+
+3. PROGRAMMING CONCEPTS USED:
+--------------------------------------------------
+- Tool 1 (Simple Calculator):
+  * Variables (floats, strings)
+  * Input / Output
+  * Conditionals (if / elif / else) for operation routing and division-by-zero check
+  * F-strings for friendly result display
+
+- Tool 2 (To-Do List Manager):
+  * Lists (for storing dynamic tasks)
+  * While loop (for sub-menu navigation)
+  * Conditionals (if / elif / else)
+  * List operations (.append(), .pop(), len())
+
+- Tool 3 (Number Guessing Game):
+  * Standard library module import (`random`)
+  * While loop (continues prompting until the correct guess is made)
+  * Conditionals (if / elif / else) for high/low/correct evaluation
+  * Variables & tracking (guess counter)
